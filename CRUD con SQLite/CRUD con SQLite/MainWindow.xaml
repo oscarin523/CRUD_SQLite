@@ -30,7 +30,7 @@
             </Label>
             <WrapPanel>
                 <TextBlock Text="Nombre guitarra:" Foreground="AliceBlue"/>
-                <TextBox Name ="txtnombreVideojuego"/>
+                <TextBox Name ="txtnombreGuitarra"/>
             </WrapPanel>
 
             <WrapPanel>

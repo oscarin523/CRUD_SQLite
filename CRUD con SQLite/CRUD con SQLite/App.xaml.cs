@@ -13,5 +13,8 @@ namespace CRUD_con_SQLite
     /// </summary>
     public partial class App : Application
     {
+        static string databaseName = "RegistrosMuica.db";
+        static string folderpath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        public static string databasePath = System.IO.Path.Combine(folderpath, databaseName);
     }
 }
