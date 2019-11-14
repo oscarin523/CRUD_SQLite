@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CRUD_con_SQLite"
         mc:Ignorable="d"
-        Title="VentanaRegistro" Height="483.708" Width="805.056">
+        Title="VentanaRegistro" Height="525.532" Width="823.241">
     <Window.Background>
         <ImageBrush ImageSource="imagen/fondo2.png"/>
     </Window.Background>
@@ -13,7 +13,7 @@
 
     <Grid Margin="0,0,287,32">
 
-        <ListView x:Name="lvRegistros" HorizontalAlignment="Left" Height="343" Margin="67,10,0,0" VerticalAlignment="Top" Width="317">
+        <ListView Background="AntiqueWhite" x:Name="lvRegistros" HorizontalAlignment="Left" Height="328" Margin="10,48,0,0" VerticalAlignment="Top" Width="490">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
@@ -23,9 +23,10 @@
 
 
 
-        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="40,373,0,0" VerticalAlignment="Top" Width="122" Height="30" Click="btnAgregar_Click"/>
-        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="360,373,0,0" VerticalAlignment="Top" Width="109" Height="30" Click="btnEliminar_Click"/>
-        <Image Source="imagen/guitarra.jpg"  Stretch="Fill" HorizontalAlignment="Left" Height="297" Margin="500,10,-270,0" VerticalAlignment="Top" Width="280"/>
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="40,381,0,0" VerticalAlignment="Top" Width="122" Height="30" Click="btnAgregar_Click" FontWeight="Bold" FontSize="14" Background="#FFEC8810"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="360,381,0,0" VerticalAlignment="Top" Width="109" Height="30" Click="btnEliminar_Click" FontWeight="Bold" FontSize="14" Background="#FFEC8810"/>
+        <Image Source="imagen/guitarra.jpg"  Stretch="Fill" HorizontalAlignment="Left" Height="315" Margin="525,10,-290,0" VerticalAlignment="Top" Width="293"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="40,10,0,0" TextWrapping="Wrap" Text="                                 Registros" VerticalAlignment="Top" Width="429" FontWeight="Bold" FontSize="16" Background="AntiqueWhite"/>
 
     </Grid>
 </Window>

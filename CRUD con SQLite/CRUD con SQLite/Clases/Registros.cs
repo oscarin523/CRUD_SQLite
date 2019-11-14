@@ -18,7 +18,7 @@ namespace CRUD_con_SQLite.Clases
 
         public override string ToString()
         {
-            return $"{Nombreguitarra} - {Precio} - {Telefono} - {Direccion}";
+            return $"{Nombreguitarra} - {Precio} - {Telefono} - {Direccion} - {Id} ";
         }
 
 

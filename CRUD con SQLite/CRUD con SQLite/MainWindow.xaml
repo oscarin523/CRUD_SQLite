@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CRUD_con_SQLite"
         mc:Ignorable="d"
-            Title="Tienda de ventas"  Height="720" Width="1098" WindowState="Normal"
+            Title="Tienda de ventas"  Height="585" Width="828" WindowState="Normal"
     WindowStartupLocation="CenterScreen" ResizeMode="CanResize">
     <Window.Resources>
         <Style TargetType="TextBlock">
@@ -25,44 +25,40 @@
     </Window.Background>
     <DockPanel Name ="dockMain" VerticalAlignment="Top" HorizontalAlignment="Center"
            LastChildFill="False">
-        <StackPanel Height="690" Width="699">
-            <Label Content="Guitarras en linea" FontStyle="Italic" Foreground="AntiqueWhite" HorizontalAlignment="Center"  FontSize="30" FontWeight="Bold">
-            </Label>
+        <StackPanel Height="540" Width="699">
+            <Label Content="Guitarras en linea" FontStyle="Italic" Foreground="AntiqueWhite" HorizontalAlignment="Center"  FontSize="30" FontWeight="Bold" Background="#FF0C0A0A"/>
             <WrapPanel>
-                <TextBlock Text="Nombre guitarra:" Foreground="AliceBlue"/>
+                <TextBlock Text="Nombre guitarra:" Background="AliceBlue" Foreground="Black" OpacityMask="#FFF5E8E8" FontWeight="Bold"/>
                 <TextBox Name ="txtnombreGuitarra"/>
             </WrapPanel>
 
-            <WrapPanel>
-                <TextBlock Text = "Id de la guitarra" Foreground="AliceBlue"/>
-                <TextBox Name ="txtId"/>
-            </WrapPanel>
+            <WrapPanel/>
             <WrapPanel>
 
 
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Precio" Background="AliceBlue" OpacityMask="#CC000000"/>
+                <TextBlock Text="Precio" Background="AliceBlue" OpacityMask="#CC000000" FontWeight="Bold"/>
                 <TextBox Name="txtprecio"/>
 
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Telefono del vendedor" Background="AliceBlue" OpacityMask="#CC000000"/>
+                <TextBlock Text="Telefono del vendedor" Background="AliceBlue" OpacityMask="#CC000000" FontWeight="Bold"/>
                 <TextBox Name="txtTelefono"/>
             </WrapPanel>
             <WrapPanel>
 
             </WrapPanel>
             <WrapPanel>
-                <TextBlock Text="Direccion" Background="AliceBlue" OpacityMask="#CC000000" />
+                <TextBlock Text="Direccion" Background="AliceBlue" OpacityMask="#CC000000" FontWeight="Bold" />
                 <TextBox Name="txtDireccion" TextWrapping="Wrap" AcceptsReturn="True" Height="75" />
             </WrapPanel>
             <WrapPanel>
             </WrapPanel>
             <WrapPanel Margin="0" HorizontalAlignment="Center" Height="59">
-                <Button Name="btnNuevo" Content="Nuevo" FontSize="25" Width="120" Margin="5" Click="BtnNuevo_Click" />
+                <Button Name="btnNuevo" Content="Registrar" FontSize="25" Width="120" Margin="5" Click="BtnNuevo_Click" />
 
-                <Button Name="btnSalir" Content="Salir" FontSize="25" Width="120" Margin="5" Background="#400000" Foreground="Bisque" Click="BtnSalir_Click" />
+                <Button Name="btnSalir" Content="Cancelar" FontSize="25" Width="120" Margin="5" Background="#FF023681" Foreground="Bisque" Click="BtnSalir_Click" />
             </WrapPanel>
 
         </StackPanel>

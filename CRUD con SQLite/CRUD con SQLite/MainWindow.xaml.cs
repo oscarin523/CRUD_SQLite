@@ -31,6 +31,7 @@ namespace CRUD_con_SQLite
         {
             Registros registros = new Registros()
             {
+                
                 Nombreguitarra = txtnombreGuitarra.Text,
                 Precio = txtprecio.Text,
                 Telefono = txtTelefono.Text,

@@ -6,11 +6,22 @@
         xmlns:local="clr-namespace:CRUD_con_SQLite"
         mc:Ignorable="d"
         Title="EliminarRegistro" Height="368.797" Width="360.15">
+
+    <Window.Background>
+        <ImageBrush ImageSource="imagen/logo.jpg">
+
+        </ImageBrush>
+    </Window.Background>
     <Grid Margin="0,0,2,7">
-        <TextBox x:Name="txtEliminar" HorizontalAlignment="Left" Height="26" Margin="142,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="183"/>
-        <Label Content="Nombre de la guitarra" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnEliminar" Content="EliminarRegistro" HorizontalAlignment="Left" Margin="79,144,0,0" VerticalAlignment="Top" Width="144" Height="28" Click="btnEliminar_Click"/>
-        <Label Content="Eliminar" HorizontalAlignment="Right" Margin="0,10,87,0" VerticalAlignment="Top" Width="106"/>
+
+        <TextBox x:Name="txtEliminar" HorizontalAlignment="Left" Height="29" Margin="171,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="169" TextChanged="txtEliminar_TextChanged" Background="#FFF5EFEF" OpacityMask="#C4000000"/>
+        <Label  Content="Nombre de la guitarra" HorizontalAlignment="Left" Margin="5,75,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Width="161" Background="#FF52EEEE"/>
+        <Button x:Name="btnEliminar" Content="EliminarRegistro" HorizontalAlignment="Left" Margin="93,144,0,0" VerticalAlignment="Top" Width="170" Height="28" Click="btnEliminar_Click"/>
+        <Label Background="#FF52EEEE" Content="Eliminar" HorizontalAlignment="Right" Margin="0,10,102,0" VerticalAlignment="Top" Width="106" FontWeight="Bold" FontSize="16">
+            <Label.BorderBrush>
+                <ImageBrush/>
+            </Label.BorderBrush>
+        </Label>
 
     </Grid>
 </Window>

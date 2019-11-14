@@ -35,5 +35,10 @@ namespace CRUD_con_SQLite
             }
             Close();
         }
+
+        private void txtEliminar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
